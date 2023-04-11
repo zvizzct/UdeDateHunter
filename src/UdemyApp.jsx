@@ -9,7 +9,7 @@ export const UdemyApp = () => {
   };
   return (
     <div className="container">
-      <h1>Course Date Hunter</h1>
+      <h1>Udemy Course Date Hunter</h1>
       <InputField onNewCourse={handleCourse} />
       <CourseTime course={course} />
     </div>

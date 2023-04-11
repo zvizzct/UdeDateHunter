@@ -19,13 +19,13 @@ export const CourseTime = ({ course }) => {
       {createdDate && lastDate && (
         <div className="course-info">
           <h2>{title}</h2>
-          <img src={image}></img>
+          <img src={image} alt={`${course.title} course image`}></img>
           <div className="dates">
             <div className="created">
-              <p className="date-created">Created: {createdDate}</p>
+              <h3 className="date-created">Created: {createdDate}</h3>
             </div>
             <div className="last">
-              <p className="date-last">Last Update: {lastDate}</p>
+              <h3 className="date-last">Last Update: {lastDate}</h3>
             </div>
           </div>
         </div>

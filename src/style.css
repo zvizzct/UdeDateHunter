@@ -130,3 +130,59 @@ img {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   margin-top: 1rem;
 }
+
+@media (max-width: 955px) {
+  .date-created,
+  .date-last {
+    padding: 10px;
+    font-size: 1.3rem;
+  }
+  .container {
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  input[type='text'] {
+    width: 100%;
+  }
+
+  .dates {
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input[type='text'] {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  .dates {
+    width: 100%;
+  }
+  .date-created,
+  .date-last {
+    font-size: 1.3rem;
+  }
+
+  .created,
+  .last {
+    padding: 2px 8px;
+  }
+}
